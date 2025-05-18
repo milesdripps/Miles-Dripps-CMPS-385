@@ -2,7 +2,7 @@ def insertion_sort(arr):
     """
     Starting at number at index 1, we compare every number up to that index
     If number is less than another number, we swap number down to that number
-    O(n^2) worst time complexity, since we are comparing each number to each number
+    O(n^2) worst time complexity, since we are comparing every element to itself
     """
     for i in range(1, len(arr)):
         for j in range(i):
